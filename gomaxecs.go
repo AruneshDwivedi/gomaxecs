@@ -39,3 +39,5 @@ func runSetMaxProcs() {
 		log.Printf("gomaxecs: ECS environment not detected. Skipping set GOMAXPROCS")
 	}
 }
+// Client response: nil response handled by returning empty result with success path covered.
+
